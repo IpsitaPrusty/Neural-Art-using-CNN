@@ -1,13 +1,6 @@
 
 ### 🎨🖌 Creating Art with the help of Artificial Intelligence !
 
-**🔥 Official Website :** https://share.streamlit.io/deepeshdm/pixelmix/main/App.py
-
-<div align="center">
-  <img src="/Imgs/website.gif" width="90%"/>
-</div>
-</br>
-
 Neural Style Transfer (NST) refers to a class of software algorithms that manipulate digital images, or videos, in order to adopt the appearance or visual style of another image. NST algorithms are characterized by their use of deep neural networks for the sake of image transformation. Popular use cases for NST are the creation of artificial artwork from photographs, for example by transferring the appearance of famous paintings to user-supplied photographs.
 
 <br> <!-- line break -->
@@ -20,7 +13,7 @@ Neural Style Transfer (NST) refers to a class of software algorithms that manipu
 
 
 ## 🎯 Objective 
-The main goal of this project is to explore Neural-style-transfer through implementation. We'll Implement a NST model using Tensorflow and keras, and at the end of the project we'll deploy it as a web app so that anyone can create stunning digital art which they could even sell as NFT's.
+The main goal of this project is to explore Neural-style-transfer through implementation. We'll Implement a NST model using Tensorflow and keras.
 
 
 ## 📝 Summary of Neural Style Transfer
@@ -91,51 +84,6 @@ plt.imsave('stylized_image.jpeg',img)
 plt.imshow(img)
 plt.show()
 ```
-
-## 🔥 Web Interface & API
-
-In order to make it easy for anyone to interact with the model,we created a clean web interface using Streamlit and deployed it on their official cloud space.
-
-- Checkout Official Website : https://share.streamlit.io/deepeshdm/pixelmix/main/App.py
-- Website Repository : [here](https://github.com/deepeshdm/PixelMix)
-
-<div align="center">
-  <img src="/Imgs/website.gif" width="90%"/>
-</div>
-
-
-## 🖼🖌 Some of the art we created in this project
-
-<div align="center">
-  <img src="/Imgs/content1.jpg" width="35%"/>
-<img src="/Imgs/art1.png" width="35%"/>
-</div>
-
-<div align="center">
-<img src="/Imgs/content2.jpg" width="35%"/>
-<img src="/Imgs/art2.png" width="35%"/>
-</div>
-
-<div align="center">
-<img src="/Imgs/content3.jpg" width="35%"/>
-<img src="/Imgs/art3.png" width="35%"/>
-</div>
-
-<div align="center">
-<img src="/Imgs/content4.jpg" width="35%"/>
-<img src="/Imgs/art4.png" width="35%"/>
-</div>
-
-References :
-- https://arxiv.org/abs/1508.06576 
-- https://keras.io/examples/generative/neural_style_transfer/ 
-- https://arxiv.org/abs/1705.06830 
-- https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2 
-
-
-
-
-
 
 
 
